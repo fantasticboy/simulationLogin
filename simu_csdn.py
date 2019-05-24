@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 
 chrome_options = Options()
 # chrome_options.add_argument('--headless')
-driver = webdriver.Chrome("/Users/dongheng/Downloads/chromedriver",chrome_options=chrome_options)
+driver = webdriver.Chrome("/Users/username/Downloads/chromedriver",chrome_options=chrome_options)
 # driver.set_window_size(1024,7680)
 
 driver.get("https://passport.csdn.net/login")
